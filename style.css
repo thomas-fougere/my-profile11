@@ -1,0 +1,49 @@
+style.css
+/* Style pour H1 */
+h1 {
+  color: orange;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Style pour H2 */
+h2 {
+  color: lightblue;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Style pour body */
+body {
+  color: #001f3f; /* Bleu foncé */
+  background-color: #f2f2f2; /* Gris très clair */
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  text-align: justify;
+  font-weight: normal;
+}
+
+/* Style pour les photos */
+.photo {
+  border-radius: 20%;
+  border: 5px solid lightblue; /* Bleu */
+}
+
+/* Style pour le conteneur */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% de la hauteur de la vue (viewport) */
+}
+
+/* Style pour les white-cards */
+.white-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+}
